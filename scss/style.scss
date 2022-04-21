@@ -1,0 +1,35 @@
+@import 'components/root';
+@import "components/header";
+@import "components/footer";
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,111,0.9912698355709472) 66%, rgba(0,212,255,1) 100%); 
+    color: white;
+}
+
+main {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+        section {
+            flex-direction: row;
+
+            div img {
+                
+                width: 400px;
+                
+            }
+        }
+}
+
+.separacion {
+    margin-top: 2rem;
+}
+
+.around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
