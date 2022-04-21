@@ -1,8 +1,11 @@
 @import 'components/root';
 @import "components/header";
 @import "components/footer";
+
+$color-body: rgb(2,0,36);
+
 body {
-    background: rgb(2,0,36);
+    background: $color-body;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,111,0.9912698355709472) 66%, rgba(0,212,255,1) 100%); 
     color: white;
 }
@@ -33,3 +36,4 @@ main {
     flex-direction: row;
     justify-content: space-around;
 }
+
