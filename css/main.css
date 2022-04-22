@@ -60,3 +60,8 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
+
+.zoom {
+  transition: transform 0,5s; }
+  .zoom:hover {
+    transform: scale(1, 2); }

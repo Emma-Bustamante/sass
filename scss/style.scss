@@ -37,3 +37,10 @@ main {
     justify-content: space-around;
 }
 
+.zoom {
+    transition: transform 0,5s;
+
+    &:hover{
+        transform: scale(1,2)
+    }
+}
