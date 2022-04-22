@@ -10,7 +10,14 @@ header{
   
             li { display: inline-block;
                 a { color: aliceblue;
-
+                    text-decoration: none;
+                    &:hover{
+                        font-weight: bold; 
+                        background-color: darkgreen; 
+                    }
+                    &:visited { 
+                        color: red;
+                    }
                 }
             }
 

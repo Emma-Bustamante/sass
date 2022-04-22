@@ -8,6 +8,14 @@ footer {
             li { display: inline-block;
                 a { color: rgb(255, 252, 240);
                     text-transform: uppercase;
+
+                    &:hover{
+                        font-weight: bold; 
+                        background-color: rgb(25, 242, 25);     
+                    }
+                    &:active {
+                        color: cadetblue;
+                    }
                 }
             }
    

@@ -13,7 +13,13 @@ header {
     header nav li {
       display: inline-block; }
       header nav li a {
-        color: aliceblue; }
+        color: aliceblue;
+        text-decoration: none; }
+        header nav li a:hover {
+          font-weight: bold;
+          background-color: darkgreen; }
+        header nav li a:visited {
+          color: red; }
 
 footer {
   margin-top: 20px;
@@ -25,6 +31,11 @@ footer {
     footer li a {
       color: #fffcf0;
       text-transform: uppercase; }
+      footer li a:hover {
+        font-weight: bold;
+        background-color: #19f219; }
+      footer li a:active {
+        color: cadetblue; }
 
 body {
   background: #020024;
